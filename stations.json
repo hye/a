@@ -1,0 +1,69 @@
+{
+  "total": 3,
+  "stations": [
+    {
+      "alias": "americas-country",
+      "name": "Americas Country",
+      "cc": "us",
+      "icon": "https://www.liveradio.ie/files/images/156385/resized/180x172c/americas_country.jpg",
+      "src": [
+        {
+          "bitrate": 64,
+          "url": "https://ais-sa2.cdnstream1.com/1976_64.aac",
+          "format": "aac"
+        },
+        {
+          "bitrate": 128,
+          "url": "https://ais-sa2.cdnstream1.com/1976_128.mp3",
+          "format": "mp3"
+        }
+      ],
+      "website": "https://americascountry.us",
+      "genre": [
+        "Country",
+        "90s"
+      ]
+    },
+    {
+      "alias": "todays-pop-country-mix",
+      "name": "Todays Pop Country Mix",
+      "cc": "us",
+      "icon": "https://www.liveradio.ie/files/images/549040/resized/180x172c/todays_pop_country_mix.jpg",
+      "src": [
+        {
+          "bitrate": 256,
+          "url": "https://ais-sa2.cdnstream1.com/1976_128.mp3",
+          "format": "mp3"
+        }
+      ],
+      "website": "https://live365.com/station/Todays-Pop-Country-Mix--a39506",
+      "genre": [
+        "Country",
+        "Pop",
+        "Top40"
+      ]
+    },
+    {
+      "alias": "applefm",
+      "name": "Apple FM",
+      "cc": "uk",
+      "icon": "https://www.liveradio.ie/files/images/103961/resized/180x172c/abalys.jpg",
+      "src": [
+        {
+          "bitrate": 128,
+          "url": "http://radio.canstream.co.uk:8031/live.mp3.m3u",
+          "format": "mp3"
+        }
+      ],
+      "website": "https://www.applefm.co.uk",
+      "genre": [
+        "Community"
+      ]
+    }
+  ],
+  "providerURL": "https://www.liveradio.ie/stations/{alias}",
+  "provider": "Live Radio",
+  "fgcolor": "#eeeeee",
+  "canAddOwn": true,
+  "blur": null
+}
